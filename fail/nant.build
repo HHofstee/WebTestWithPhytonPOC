@@ -1,0 +1,9 @@
+<?xml version="1.0"?>
+<project name="protractor" default="all" basedir=".">
+
+   <target name="all">
+   		<exec program="python" failonerror="false" resultproperty="result" output="out.txt" commandline="test.py" />
+		<echo file="out.txt" message="Output from nant: result: ${result}" append="true" />
+   </target>
+
+</project>

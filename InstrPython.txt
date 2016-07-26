@@ -1,0 +1,7 @@
+Setting up Python/Selenium Stack:
+
+1: Install Python 2.7, add to PATH the main dir AND and \Scripts . Python can now be started with the 'python' command from Prompt. If you see >>>, python is running. exit() exits.
+2: Install Selenium with pip install selenium(pip is located in \Scripts) in the Windows command prompt.
+3: Download and unpack the PhantomJS distibution for Windows (2.1.1 at the moment of writing): http://phantomjs.org/download.html
+4: Add PhantomJS main dir to PATH
+5: Write script and execute with python script.py in the local directory. Opening a command prompt in any windows folder can be done by holding LShift while right clicking.
